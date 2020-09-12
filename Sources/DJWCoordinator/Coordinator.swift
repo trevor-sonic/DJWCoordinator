@@ -8,7 +8,8 @@
 
 import UIKit
 
-protocol Coordinator: class{    
+public protocol Coordinator: class{    
     func start()
+    func kill()
 }
 
